@@ -1,0 +1,553 @@
+{
+  "description": "What each vitamin and mineral does, signs of low levels, food sources and NHS advice. Daily intakes and upper limits are in daily_needs.json.",
+  "checked": "2026-09-16",
+  "nutrients": {
+    "vitamin_a": {
+      "name": "Vitamin A",
+      "type": "vitamin",
+      "unit": "µg",
+      "aliases": ["a", "retinol", "beta-carotene"],
+      "what_it_does": [
+        "Helps your immune system work properly",
+        "Helps you see in dim light",
+        "Keeps skin and the lining of some parts of the body, such as the nose, healthy"
+      ],
+      "signs_of_low_levels": [
+        "Trouble seeing in low light",
+        "Getting infections more often, such as chest infections",
+        "Anaemia"
+      ],
+      "food_sources": [
+        "Cheese",
+        "Eggs",
+        "Oily fish, such as salmon, sardines, trout, herring and mackerel",
+        "Milk and yoghurt",
+        "Fortified low-fat spreads",
+        "Liver and liver pâté (very rich in vitamin A; avoid if pregnant)",
+        "Foods with beta-carotene, which the body turns into vitamin A: carrots, sweet potatoes, spinach, red peppers, mango, papaya and apricots"
+      ],
+      "advice": [
+        "Don't have more than 1,500µg (1.5mg) a day from food and supplements combined.",
+        "If you eat liver or liver pâté, have it no more than once a week, and don't take supplements containing vitamin A, including fish liver oil.",
+        "If you're pregnant, don't take cod liver oil or supplements containing vitamin A (retinol), and avoid liver, because too much vitamin A can harm a baby's development.",
+        "Women past the menopause and older men should take extra care to stay under 1,500µg a day, as too much over many years may weaken bones.",
+        "Your body stores vitamin A, so you don't need it every day."
+      ],
+      "sources": [
+        "https://www.nhs.uk/conditions/vitamins-and-minerals/vitamin-a/",
+        "https://www.nhs.uk/pregnancy/keeping-well/pregnancy-vitamins-and-supplements/",
+        "https://ods.od.nih.gov/factsheets/VitaminA-Consumer/"
+      ]
+    },
+    "vitamin_b1": {
+      "name": "Vitamin B1 (thiamin)",
+      "type": "vitamin",
+      "unit": "mg",
+      "aliases": ["b1", "thiamin", "thiamine"],
+      "what_it_does": [
+        "Helps your body break down and release energy from food",
+        "Keeps your nervous system healthy"
+      ],
+      "signs_of_low_levels": [
+        "Loss of appetite and weight loss",
+        "Confusion or memory problems",
+        "Muscle weakness",
+        "Tingling or numbness in the hands and feet (when levels are very low)"
+      ],
+      "food_sources": [
+        "Peas",
+        "Bananas and oranges",
+        "Nuts",
+        "Wholegrain bread",
+        "Some fortified breakfast cereals",
+        "Liver (avoid if pregnant)"
+      ],
+      "advice": [
+        "Your body can't store thiamin, so you need some every day."
+      ],
+      "sources": [
+        "https://www.nhs.uk/conditions/vitamins-and-minerals/vitamin-b/",
+        "https://ods.od.nih.gov/factsheets/Thiamin-Consumer/"
+      ]
+    },
+    "vitamin_b2": {
+      "name": "Vitamin B2 (riboflavin)",
+      "type": "vitamin",
+      "unit": "mg",
+      "aliases": ["b2", "riboflavin"],
+      "what_it_does": [
+        "Keeps skin, eyes and the nervous system healthy",
+        "Helps your body release energy from food"
+      ],
+      "signs_of_low_levels": [
+        "Sores or cracks at the corners of the mouth",
+        "Swollen, cracked lips",
+        "Skin problems",
+        "Sore throat"
+      ],
+      "food_sources": [
+        "Milk",
+        "Eggs",
+        "Plain yoghurt",
+        "Mushrooms",
+        "Fortified breakfast cereals"
+      ],
+      "advice": [
+        "Your body can't store riboflavin, so you need some every day.",
+        "UV light destroys riboflavin, so keep these foods out of direct sunlight."
+      ],
+      "sources": [
+        "https://www.nhs.uk/conditions/vitamins-and-minerals/vitamin-b/",
+        "https://ods.od.nih.gov/factsheets/Riboflavin-Consumer/"
+      ]
+    },
+    "vitamin_b3": {
+      "name": "Vitamin B3 (niacin)",
+      "type": "vitamin",
+      "unit": "mg",
+      "aliases": ["b3", "niacin", "nicotinic acid", "nicotinamide"],
+      "what_it_does": [
+        "Helps your body release energy from food",
+        "Keeps your nervous system and skin healthy"
+      ],
+      "signs_of_low_levels": [
+        "Rough skin that turns red or brown in the sun",
+        "A bright red tongue",
+        "Stomach upsets, such as sickness, constipation or diarrhoea",
+        "Headaches and extreme tiredness"
+      ],
+      "food_sources": [
+        "Meat",
+        "Fish",
+        "Eggs",
+        "Wheat flour"
+      ],
+      "advice": [
+        "Your body can't store niacin, so you need some every day.",
+        "Serious niacin deficiency is uncommon in countries like the UK.",
+        "Niacin comes in two forms, nicotinic acid and nicotinamide. High doses of nicotinic acid can cause skin flushing, and taking them for a long time could damage the liver."
+      ],
+      "sources": [
+        "https://www.nhs.uk/conditions/vitamins-and-minerals/vitamin-b/",
+        "https://ods.od.nih.gov/factsheets/Niacin-Consumer/"
+      ]
+    },
+    "vitamin_b6": {
+      "name": "Vitamin B6",
+      "type": "vitamin",
+      "unit": "mg",
+      "aliases": ["b6", "pyridoxine"],
+      "what_it_does": [
+        "Helps your body use and store energy from protein and carbohydrates",
+        "Helps your body make haemoglobin, which carries oxygen in red blood cells"
+      ],
+      "signs_of_low_levels": [
+        "Itchy rashes",
+        "Scaly skin on the lips, or cracks at the corners of the mouth",
+        "A swollen tongue",
+        "Anaemia",
+        "Low mood or confusion"
+      ],
+      "food_sources": [
+        "Pork",
+        "Chicken and turkey",
+        "Some fish",
+        "Peanuts",
+        "Soya beans",
+        "Oats and wheatgerm",
+        "Bananas",
+        "Milk",
+        "Some fortified breakfast cereals"
+      ],
+      "advice": [
+        "Don't take more than 10mg a day in supplements unless a doctor advises it.",
+        "Taking 200mg or more a day can cause loss of feeling in the arms and legs. This usually gets better when the supplements stop, but can occasionally be permanent."
+      ],
+      "sources": [
+        "https://www.nhs.uk/conditions/vitamins-and-minerals/vitamin-b/",
+        "https://ods.od.nih.gov/factsheets/VitaminB6-Consumer/"
+      ]
+    },
+    "vitamin_b9": {
+      "name": "Vitamin B9 (folate)",
+      "type": "vitamin",
+      "unit": "µg",
+      "aliases": ["b9", "folate", "folic acid", "folacin"],
+      "what_it_does": [
+        "Helps your body make healthy red blood cells",
+        "Lowers the risk of neural tube defects, such as spina bifida, in unborn babies"
+      ],
+      "signs_of_low_levels": [
+        "Feeling weak or tired",
+        "Shortness of breath or palpitations",
+        "Headaches",
+        "A sore or red tongue, sometimes with mouth ulcers",
+        "Loss of appetite"
+      ],
+      "food_sources": [
+        "Broccoli",
+        "Brussels sprouts",
+        "Leafy greens, such as cabbage, kale, spring greens and spinach",
+        "Peas",
+        "Chickpeas and kidney beans",
+        "Breakfast cereals fortified with folic acid",
+        "Liver (avoid if pregnant)"
+      ],
+      "advice": [
+        "Folic acid is the man-made form of folate, used in supplements and fortified foods.",
+        "If you're pregnant, trying for a baby or could get pregnant, take a 400µg folic acid supplement every day until you're 12 weeks pregnant.",
+        "Some women at higher risk are prescribed a 5mg dose by a GP instead.",
+        "Your body doesn't store folate for long, so eat folate-rich foods often.",
+        "Folic acid doses above 1mg a day can hide the signs of vitamin B12 deficiency. This matters more for older people."
+      ],
+      "sources": [
+        "https://www.nhs.uk/conditions/vitamins-and-minerals/vitamin-b/",
+        "https://www.nhs.uk/pregnancy/keeping-well/pregnancy-vitamins-and-supplements/",
+        "https://www.nhs.uk/conditions/vitamin-b12-or-folate-deficiency-anaemia/symptoms/"
+      ]
+    },
+    "vitamin_b12": {
+      "name": "Vitamin B12",
+      "type": "vitamin",
+      "unit": "µg",
+      "aliases": ["b12", "cobalamin", "cyanocobalamin"],
+      "what_it_does": [
+        "Helps make red blood cells",
+        "Keeps your nervous system healthy",
+        "Helps your body release energy from food and use folate"
+      ],
+      "signs_of_low_levels": [
+        "Feeling weak or tired",
+        "A sore or red tongue",
+        "Pins and needles or numbness",
+        "Muscle weakness",
+        "Problems with balance and coordination"
+      ],
+      "food_sources": [
+        "Meat",
+        "Fish",
+        "Milk",
+        "Cheese",
+        "Eggs",
+        "Some fortified breakfast cereals"
+      ],
+      "advice": [
+        "B12 isn't found naturally in fruit, vegetables or grains, so vegans may need a supplement.",
+        "Vegan sources include breakfast cereals and unsweetened soya drinks fortified with B12, and yeast extract (such as Marmite) or nutritional yeast flakes fortified with B12.",
+        "Absorbing B12 gets harder as you get older."
+      ],
+      "sources": [
+        "https://www.nhs.uk/conditions/vitamins-and-minerals/vitamin-b/",
+        "https://www.nhs.uk/live-well/eat-well/how-to-eat-a-balanced-diet/the-vegan-diet/",
+        "https://www.nhs.uk/conditions/vitamin-b12-or-folate-deficiency-anaemia/symptoms/"
+      ]
+    },
+    "vitamin_c": {
+      "name": "Vitamin C",
+      "type": "vitamin",
+      "unit": "mg",
+      "aliases": ["c", "ascorbic acid"],
+      "what_it_does": [
+        "Helps protect cells and keep them healthy",
+        "Keeps skin, blood vessels, bones and cartilage healthy",
+        "Helps wounds heal"
+      ],
+      "signs_of_low_levels": [
+        "Feeling very tired and weak",
+        "Feeling irritable or low",
+        "Joint, muscle or leg pain",
+        "Swollen, bleeding gums",
+        "Bruising easily, or red or blue spots on the skin"
+      ],
+      "food_sources": [
+        "Oranges and orange juice",
+        "Peppers",
+        "Strawberries",
+        "Blackcurrants",
+        "Broccoli",
+        "Brussels sprouts",
+        "Potatoes"
+      ],
+      "advice": [
+        "Your body can't store vitamin C, so you need some every day.",
+        "Eating vitamin C-rich foods at the same meal helps your body absorb iron from plant foods.",
+        "More than 1,000mg a day from supplements can cause stomach pain, diarrhoea and wind. This goes away when the supplements stop."
+      ],
+      "sources": [
+        "https://www.nhs.uk/conditions/vitamins-and-minerals/vitamin-c/",
+        "https://www.nhs.uk/conditions/scurvy/",
+        "https://www.nhs.uk/live-well/eat-well/how-to-eat-a-balanced-diet/the-vegan-diet/"
+      ]
+    },
+    "vitamin_d": {
+      "name": "Vitamin D",
+      "type": "vitamin",
+      "unit": "µg",
+      "aliases": ["d", "d2", "d3", "calciferol", "cholecalciferol", "ergocalciferol"],
+      "what_it_does": [
+        "Helps control the amount of calcium and phosphate in the body",
+        "Keeps bones, teeth and muscles healthy"
+      ],
+      "signs_of_low_levels": [
+        "Pain in the back, ribs, pelvis or legs",
+        "Weak muscles, such as finding it hard to climb stairs or get out of a chair",
+        "Tingling, cramping or twitching muscles",
+        "Breaking bones more easily",
+        "In children, bowed legs"
+      ],
+      "food_sources": [
+        "Sunlight on your skin, from late March or early April to the end of September",
+        "Oily fish, such as salmon, sardines, trout, herring and mackerel",
+        "Egg yolks",
+        "Red meat",
+        "Fortified foods, such as some fat spreads and breakfast cereals",
+        "Liver (avoid if pregnant)"
+      ],
+      "advice": [
+        "Between October and early March the UK sun isn't strong enough to make vitamin D, so everyone, including pregnant and breastfeeding women, should consider a 10µg supplement every day.",
+        "Take a 10µg supplement every day all year if you're rarely outdoors (for example housebound or living in a care home) or usually cover most of your skin when outside.",
+        "People with dark skin, such as those of African, African-Caribbean or south Asian background, may not make enough from sunlight and should consider 10µg a day all year.",
+        "Children aged 1 to 4 should have a 10µg supplement every day all year. Babies under 1 need 8.5 to 10µg a day if breastfed or having less than 500ml of formula a day.",
+        "UK cows' milk isn't a good source, because it usually isn't fortified.",
+        "Vegan sources include fortified fat spreads, breakfast cereals and unsweetened soya drinks with vitamin D added.",
+        "1µg is 40 IU, so 10µg is 400 IU.",
+        "You can't get too much vitamin D from sunlight, but taking too much in supplements over a long time can raise calcium levels and damage bones, kidneys and the heart.",
+        "Some medical conditions mean people can't safely take as much. If a doctor recommends a different amount, follow their advice.",
+        "Some people can get free vitamin supplements through Healthy Start."
+      ],
+      "sources": [
+        "https://www.nhs.uk/conditions/vitamins-and-minerals/vitamin-d/",
+        "https://www.nhs.uk/conditions/rickets-and-osteomalacia/",
+        "https://www.nhs.uk/live-well/eat-well/how-to-eat-a-balanced-diet/the-vegan-diet/"
+      ]
+    },
+    "vitamin_e": {
+      "name": "Vitamin E",
+      "type": "vitamin",
+      "unit": "mg",
+      "aliases": ["e", "tocopherol", "alpha-tocopherol"],
+      "what_it_does": [
+        "Helps keep skin and eyes healthy",
+        "Strengthens your immune system"
+      ],
+      "signs_of_low_levels": [
+        "Loss of feeling in the arms and legs",
+        "Loss of control of body movements",
+        "Muscle weakness",
+        "Eyesight problems"
+      ],
+      "food_sources": [
+        "Plant oils, such as rapeseed (vegetable), sunflower, soya, corn and olive oil",
+        "Nuts and seeds",
+        "Wheatgerm, found in cereals and cereal products"
+      ],
+      "advice": [
+        "Low vitamin E is very rare in healthy people. It's usually linked to conditions that affect how the body absorbs fat.",
+        "Your body stores vitamin E, so you don't need it every day.",
+        "540mg of vitamin E is 800 IU."
+      ],
+      "sources": [
+        "https://www.nhs.uk/conditions/vitamins-and-minerals/vitamin-e/",
+        "https://ods.od.nih.gov/factsheets/VitaminE-Consumer/"
+      ]
+    },
+    "vitamin_k": {
+      "name": "Vitamin K",
+      "type": "vitamin",
+      "unit": "µg",
+      "aliases": ["k", "k1", "k2", "phylloquinone", "menaquinone"],
+      "what_it_does": [
+        "Needed for blood clotting, which helps wounds heal",
+        "There's some evidence it may help keep bones healthy"
+      ],
+      "signs_of_low_levels": [
+        "Bruising easily",
+        "Bleeding that takes longer than usual to stop",
+        "Possibly weaker bones"
+      ],
+      "food_sources": [
+        "Green leafy vegetables, such as broccoli and spinach",
+        "Vegetable oils",
+        "Cereal grains",
+        "Small amounts in meat and dairy foods"
+      ],
+      "advice": [
+        "Adults need about 1µg a day for each kilogram of body weight. For example, someone weighing 65kg needs about 65µg a day.",
+        "Your liver stores vitamin K, so you don't need it every day.",
+        "If you take warfarin, don't take vitamin K supplements. Foods high in vitamin K, such as green leafy vegetables, can affect how warfarin works, so ask your warfarin clinic for advice."
+      ],
+      "sources": [
+        "https://www.nhs.uk/conditions/vitamins-and-minerals/vitamin-k/",
+        "https://www.nhs.uk/medicines/warfarin/",
+        "https://ods.od.nih.gov/factsheets/VitaminK-Consumer/"
+      ]
+    },
+    "iron": {
+      "name": "Iron",
+      "type": "mineral",
+      "unit": "mg",
+      "aliases": ["fe", "ferrous sulphate", "ferrous fumarate"],
+      "what_it_does": [
+        "Helps make red blood cells, which carry oxygen around the body"
+      ],
+      "signs_of_low_levels": [
+        "Tiredness and lack of energy",
+        "Shortness of breath",
+        "Noticeable heartbeats (palpitations)",
+        "Paler skin than usual",
+        "Headaches"
+      ],
+      "food_sources": [
+        "Red meat",
+        "Beans, such as red kidney beans, edamame beans and chickpeas",
+        "Nuts",
+        "Dried fruit, such as dried apricots",
+        "Fortified breakfast cereals",
+        "Soy bean flour",
+        "Liver (avoid if pregnant)"
+      ],
+      "advice": [
+        "Women aged 19 to 49 need more iron than men. Women still having periods after 50 may need the same amount as younger women.",
+        "Iron from plant foods is absorbed less well than iron from meat. Eat vitamin C-rich foods at the same meal, and avoid tea or coffee with or straight after main meals.",
+        "Vegan sources include pulses, wholemeal bread and flour, iron-fortified cereals, dark green leafy vegetables such as watercress, broccoli and spring greens, nuts, and dried fruit such as apricots, prunes and figs.",
+        "Women with heavy periods are more likely to have low iron. A GP or dietitian can advise.",
+        "In pregnancy, iron levels are checked at the booking appointment and at around 28 weeks.",
+        "Iron supplements can be fatal to children in large amounts, so keep them out of children's reach.",
+        "The Department of Health and Social Care advises limiting red and processed meat."
+      ],
+      "sources": [
+        "https://www.nhs.uk/conditions/vitamins-and-minerals/iron/",
+        "https://www.nhs.uk/conditions/iron-deficiency-anaemia/",
+        "https://www.nhs.uk/live-well/eat-well/how-to-eat-a-balanced-diet/the-vegan-diet/"
+      ]
+    },
+    "calcium": {
+      "name": "Calcium",
+      "type": "mineral",
+      "unit": "mg",
+      "aliases": ["ca"],
+      "what_it_does": [
+        "Helps build bones and keep teeth healthy",
+        "Controls muscle contractions, including your heartbeat",
+        "Helps blood clot normally"
+      ],
+      "signs_of_low_levels": [
+        "Over time, weak or fragile bones that break more easily",
+        "Bone pain in the back, ribs, pelvis or legs",
+        "Weak, cramping or twitching muscles",
+        "In children, problems with bone growth (rickets)"
+      ],
+      "food_sources": [
+        "Milk, cheese and other dairy foods",
+        "Green leafy vegetables, such as curly kale and okra (but not spinach)",
+        "Soya drinks with added calcium",
+        "Bread and anything made with fortified flour",
+        "Fish where you eat the bones, such as sardines and pilchards"
+      ],
+      "advice": [
+        "Spinach contains calcium, but your body can't absorb much of it.",
+        "Vegan sources include fortified unsweetened soya, pea and oat drinks, calcium-set tofu, sesame seeds and tahini, pulses, bread, dried fruit and green leafy vegetables.",
+        "Vitamin D helps control calcium in the body, so both matter for healthy bones."
+      ],
+      "sources": [
+        "https://www.nhs.uk/conditions/vitamins-and-minerals/calcium/",
+        "https://www.nhs.uk/conditions/rickets-and-osteomalacia/",
+        "https://www.nhs.uk/live-well/eat-well/how-to-eat-a-balanced-diet/the-vegan-diet/"
+      ]
+    },
+    "magnesium": {
+      "name": "Magnesium",
+      "type": "mineral",
+      "unit": "mg",
+      "aliases": [],
+      "what_it_does": [
+        "Helps turn the food you eat into energy",
+        "Helps the parathyroid glands work normally. They make hormones that are important for bone health."
+      ],
+      "signs_of_low_levels": [
+        "Loss of appetite",
+        "Feeling or being sick",
+        "Tiredness and weakness",
+        "Numbness, tingling or muscle cramps (when levels are very low)"
+      ],
+      "food_sources": [
+        "Spinach",
+        "Nuts",
+        "Wholemeal bread"
+      ],
+      "advice": [
+        "A short spell of low magnesium usually causes no obvious symptoms."
+      ],
+      "sources": [
+        "https://www.nhs.uk/conditions/vitamins-and-minerals/others/",
+        "https://ods.od.nih.gov/factsheets/Magnesium-Consumer/"
+      ]
+    },
+    "zinc": {
+      "name": "Zinc",
+      "type": "mineral",
+      "unit": "mg",
+      "aliases": ["zn"],
+      "what_it_does": [
+        "Helps make new cells and enzymes",
+        "Helps your body process carbohydrate, fat and protein in food",
+        "Helps wounds heal"
+      ],
+      "signs_of_low_levels": [
+        "Loss of taste and smell",
+        "Wounds healing slowly",
+        "Getting infections often",
+        "Loss of appetite",
+        "In children, slow growth"
+      ],
+      "food_sources": [
+        "Meat",
+        "Shellfish",
+        "Dairy foods, such as cheese",
+        "Bread",
+        "Cereal products, such as wheatgerm"
+      ],
+      "advice": [
+        "High doses of zinc reduce how much copper your body can absorb, which can lead to anaemia and weaker bones."
+      ],
+      "sources": [
+        "https://www.nhs.uk/conditions/vitamins-and-minerals/others/",
+        "https://ods.od.nih.gov/factsheets/Zinc-Consumer/"
+      ]
+    },
+    "potassium": {
+      "name": "Potassium",
+      "type": "mineral",
+      "unit": "mg",
+      "aliases": [],
+      "what_it_does": [
+        "Helps control the balance of fluids in the body",
+        "Helps your heart muscle work properly"
+      ],
+      "signs_of_low_levels": [
+        "Constipation",
+        "Tiredness",
+        "Muscle weakness",
+        "Generally feeling unwell"
+      ],
+      "food_sources": [
+        "Bananas",
+        "Vegetables, such as broccoli, parsnips and brussels sprouts",
+        "Beans and pulses",
+        "Nuts and seeds",
+        "Fish",
+        "Beef, chicken and turkey"
+      ],
+      "advice": [
+        "Most foods contain some potassium.",
+        "Older people shouldn't take potassium supplements unless a doctor advises it, as their kidneys may not clear extra potassium well.",
+        "People with chronic kidney disease should avoid potassium supplements."
+      ],
+      "sources": [
+        "https://www.nhs.uk/conditions/vitamins-and-minerals/others/",
+        "https://www.nhs.uk/conditions/kidney-disease/treatment/",
+        "https://ods.od.nih.gov/factsheets/Potassium-Consumer/"
+      ]
+    }
+  }
+}
